@@ -10,7 +10,24 @@ type Player = {
 const playerMaker = (name:string) : Player => ({name});
 const nico = playerMaker('nico');
 nico.age = 12;
-nico.name = "las";
+
+let a: unknown;
+if(typeof a ==='number'){
+    let b = a+1;
+}
+if(typeof a === 'string'){
+    let b = a.toUpperCase();
+}
+
+function hello(name:string|number){
+    if(typeof name === 'string'){
+
+    }else if(typeof name === 'number'){
+        
+    }else{
+        
+    }
+} 
 
 
 function Test(){
